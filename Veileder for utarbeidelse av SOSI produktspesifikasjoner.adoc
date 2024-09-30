@@ -103,7 +103,8 @@ Filformat som kan brukes for å lagre UML-modeller. Forkortelse for ”XML Metad
 Dette er en oppsummering av noen av de ”overordnede kravene” som gjelder til en produktspesifikasjon. 
 
 === Krav om utarbeidelse av produktspesifikasjoner
-Alle data som etter partsavtaler i Norge digitalt skal leveres inn til Norge digitalt-samarbeidet, skal ha produktspesifikasjoner. (Kilde: Norge digitalt partsavtalen). For data som ikke inngår i Norge digitalt-samarbeidet, er det formelt ikke noe krav om produktspesifikasjoner, men likevel er produktspesifikasjoner nyttig å ha, også for slike data.
+Alle data som etter partsavtaler i Norge digitalt skal leveres inn til Norge digitalt-samarbeidet, skal ha produktspesifikasjoner. (Kilde: Norge digitalt partsavtalen). + 
+For data som ikke inngår i Norge digitalt-samarbeidet, er det formelt ikke noe krav om produktspesifikasjoner, men likevel er produktspesifikasjoner nyttig å ha, også for slike data.
 
 === Krav til innhold, utseende, godkjenning, tilgjengeliggjøring og arkivering
 Kravene til SOSI produktspesifikasjoner finnes i standarden ”SOSI produktspesifikasjoner – Krav og godkjenning.” Kravene gjelder:
@@ -143,10 +144,15 @@ Resten av dette kapittelet beskriver de ulike kapitlene som inngår i en produkt
 Dette er en uformell beskrivelse av produktspesifikasjonen, gjerne med henvisning til bakgrunn og behov for at produktspesifikasjonen er laget.
 
 ==== Kap 1.2 Historikk (Påkrevd)
-Historikken til produktet skal fortelle når produktspesifikasjonen (og ev tidligere versjoner av produktspesifikasjonen) ble utarbeidet. Det kan også fortelle hvem som var involvert i arbeidet med produktspesifikasjonen. Dersom dette er første versjon skrives «Første versjon».
+Historikken til produktet skal fortelle når produktspesifikasjonen (og ev tidligere versjoner av produktspesifikasjonen) ble utarbeidet. + 
+Det kan også fortelle hvem som var involvert i arbeidet med produktspesifikasjonen. + 
+Dersom dette er første versjon skrives «Første versjon».
 
 ==== Kap 1.3 Endringslogg (Betinget)
-Endringslogg er aktuelt for produktspesifikasjoner som er en ny versjon av tidligere utgitte produktspesifikasjoner. Endringene fra tidligere versjon angis som fritekst. Dersom det er aktuelt med detaljert dokumentasjon av for eksempel applikasjons-skjemaet tas dette ikke inn her, men tas inn som eget vedlegg til produktspesifikasjonen
+Endringslogg er aktuelt for produktspesifikasjoner som er en ny versjon av tidligere utgitte produktspesifikasjoner. +
+Endringene fra tidligere versjon angis som fritekst. 
+
+Dersom det er aktuelt med detaljert dokumentasjon av for eksempel applikasjons-skjemaet tas dette ikke inn her, men tas inn som eget vedlegg til produktspesifikasjonen
 
 === Kap 2 Definisjoner og forkortelser
 
@@ -181,17 +187,17 @@ De delene som er med i en SOSI produktspesifikasjon, er:
 |Kapittel 3.1.1 Kortnavn|Påkrevd|Dette er det navnet som vil bli brukt i ulike register for å identifisere produktet. Det er viktig at kortnavnet entydig identifiserer produktet|FKB-BYGG
 |Kapittel 3.1.2 Fullstendig navn|Opsjonelt|I tillegg til kortnavnet, kan produktet ha
 en lengre navn.|FKB Bygningsinformasjon
-|Kapittel 3.1.3 Versjon|Påkrevd|Produkteieren bestemmer selv hvordan versjoner av produktet skal angis. Versjons-angivelsen på produktet er uavhengig av versjonsangivelse på de SOSI Del 2-fagområdene produktspesifikasjonene baseres på.|Metode 1 (SOSI Del 2-knytta): 4.01 +
-Metode 2 (egen): 1.0 +
+|Kapittel 3.1.3 Versjon|Påkrevd|Produkteieren bestemmer selv hvordan versjoner av produktet skal angis. Versjons-angivelsen på produktet er uavhengig av versjonsangivelse på de SOSI Del 2-fagområdene produktspesifikasjonene baseres på.|Metode 1 (SOSI Del 2-knytta): 4.01 
+
+Metode 2 (egen): 1.0 
+
 Metode 3 (dato): 20120416
 |====
 
 [NOTE]
 ====
-Om produktspesifikasjons-versjoner og knytting til versjoner av refererte ”ressurser”
-
-Versjonsangivelser av produktspesifikasjoner er det den som lager produktspesifikasjonen som bestemmer selv. Prinsippene for versjonsangivelse er opp til den som lager produktspesifikasjoner å bestemme. Vi har ulike prinsipper i bruk. FKB bruker noe som er nær fagområdeversjonene, arealplan bruker datobasert versjon, og ”Tur og friluftsruter” noe som er frittstående både fra fagområdeversjon og fra dato.
-
+Om produktspesifikasjons-versjoner og knytting til versjoner av refererte ”ressurser” + 
+Versjonsangivelser av produktspesifikasjoner er det den som lager produktspesifikasjonen som bestemmer selv. Prinsippene for versjonsangivelse er opp til den som lager produktspesifikasjoner å bestemme. Vi har ulike prinsipper i bruk. FKB bruker noe som er nær fagområdeversjonene, arealplan bruker datobasert versjon, og ”Tur og friluftsruter” noe som er frittstående både fra fagområdeversjon og fra dato. + 
 Versjonen av produktspesifikasjonen har ikke noe med versjon av fagområdestandardene produktet baseres på (se omtale av Kap 5 Informasjonsmodell) å gjøre. Den har heller ikke noe med versjonen av referansesystemene (se kap 6.1 Geografisk referansesystem)å gjøre, og har heller ikke noe med versjon av leveranseformatet (se Kap 11.1 Leveranseinformasjon) å gjøre. Disse (minst) 4 versjonene er i prinsippet helt uavhengige.
 ====
 
@@ -246,7 +252,7 @@ Det faglige innholdet beskrives i flere ”deler”:
 * _Kapittel 3.8 Formål (opsjonelt)_: Mest mulig presis beskrivelse av formålet med produktet
 * _Kapittel 3.9 Representasjonsform (opsjonelt)_: De fleste av våre produkter har vektorrepresentasjon, men standarden kan også beskrive rasterrepresentasjon. Eksemplet på produktspesifikasjonsdokumentet som veilederdokument er laget med utgangspunkt i vektorrepresentasjon
 
-I en SOSI produktspesifikasjon skal dette beskriver i henhold til følgende kapittelinndeling:
+I en SOSI produktspesifikasjon skal dette beskrives i henhold til følgende kapittelinndeling:
 
 |====
 |Kapittel i produktspesifikasjonen|Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning
@@ -303,8 +309,8 @@ Utstrekningsinformasjon beskrives med en eller flere av de egenskaper som er ang
 
 |Utstrekningsbeskrivelse|Rent tekstlig beskrivelse av utstrekningen.|FKB-A, +
 Under tregrensa
-|Horisontal utstrekning|Geografisk avgrensning i form av et polygon|Angis som et sett koordinater som totalt dannet et lukket polygon. Koordinatene må angis i henhold til det referansesystem somspesifiseres Kapittel 6 Referansesystem.   
-||Geografisk avgrensning i form av vestlig lengdegrad, østlig lengdegrad, sørligste breddegrad og nordligste breddegrad.|Omskreven box: +
+|Horisontal utstrekning|Geografisk avgrensning i form av et polygon|Angis som et sett koordinater som totalt dannet et lukket polygon. Koordinatene må angis i henhold til det referansesystem som spesifiseres i Kapittel 6 Referansesystem.   
+||Geografisk avgrensning i form av vestlig lengdegrad, østlig lengdegrad, sørligste breddegrad og nordligste breddegrad.|Omskreven boks: +
 Sørlig bredde: 57° 58' 46,2797" +
 Nordlig bredde: 71° 08' 02,4780" +
 Vestlig lengde: 04° 56' 43,1825" +
@@ -379,7 +385,7 @@ Produktspesifikasjonen må inneholde en beskrivelse av enten vektorbaserte data 
 |Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning:|15.2 Innholdsomfang
 |====
 
-Innholdsomfang skal brukes til å fortelle hvilke deler av produktspesifikasjonen innholdsspesifikasjonen skal gjelde for. Referer her til et predefinert spesifikasjonsomgang jfr. kapittel 4 eller skriver "Hele datasettet"
+Innholdsomfang skal brukes til å fortelle hvilke deler av produktspesifikasjonen innholdsspesifikasjonen skal gjelde for. Referer her til et predefinert spesifikasjonsomgang jfr. kapittel 4 eller skriv "Hele datasettet"
 
 ==== Kap 5.1.2 UML Applikasjonsskjema (Påkrevd)
 
@@ -488,7 +494,7 @@ Kvalitets-elementene i ISO19115 er underinndelt i kvalitets-del-elementer. For h
 
 Eksempel: For kvalitets-element Stedfestingsnøyaktighet, kvalitets-del-element Absolutt grunnrissnøyaktighet” finnes kvalitets-målene ”Standardavvik”, og ”Prosentandel grove feil”. De to kvalitets-målene angir den absolutte stedfestingsnøyaktigheten på to ulike måter.
 
-Kvalitets-kravene i en produktspesifikasjon settes opp ved å velge et passende kvalitets-mål og beskrive grenseverdier (maks tillatt verdi). 
+Kvalitets-kravene i en produktspesifikasjon settes opp ved å velge et passende kvalitetsmål og beskrive grenseverdier (maks tillatt verdi). 
 
 .Eksempel på kvalitetskrav (Kilde: FKB)
 image::figurer/kvalitetskrav.png[Eksempel på kvalitetskrav fra FKB]
@@ -566,7 +572,7 @@ Informasjon om leveranse skal fortelle hvordan produktet skal leveres ut til / g
 
 Leveranseinformasjon består av to deler: Leveranseformat og leveransemedium. Disse to er knytta sammen, hvert leveranseformat har sitt leveransemedium. I tillegg må også beskrivelsen inneholde informasjon om hvilke omfang leveransen knyttes til. I de aller fleste tilfeller finnes det bare et omfang.
 
-En viktig del av leveranseinformasjonen, er angivelse av leveranseformat. For hvert mulig leveranseformat kreves et eget vedlegg i produktspesifikasjonen som sier hvordan applikasjonsskjemaet (dokumentert i kap 5) skal realiseres i leveranseformatene. Mer om dette lenger nede, under Vedlegg til produktspesifikasjonen.
+En viktig del av leveranseinformasjonen, er angivelse av leveranseformat. For hvert mulig leveranseformat kreves et eget vedlegg i produktspesifikasjonen som sier hvordan applikasjonsskjemaet (dokumentert i kap 5) skal realiseres i leveranseformatene. Mer om dette lenger nede, under __Vedlegg til produktspesifikasjonen__.
 
 ==== Kap 11.1 Leveransemetode
 Dette kapitlet er med for å muliggjøre flere leveranseformater og medium
@@ -609,7 +615,7 @@ Versjonen av de respektive formater skal beskrives i dette kapittel, både for S
 ====
 Om SOSI-formatet og versjoner av SOSI-formatet.
 
-SOSI-VERSJON skal angi versjonen på standarden SOSI Del 1 Realisering i SOSI/GML som er benyttet. Det er her en finner alle forklaringer på hvordan hodet på ei SOSI-fil skal se ut. Gjeldendestandard for SOSI Del 1 Realisering i SOSI/GML er 4.5. Og det betyr at en ved produksjon av SOSIfiler kan bruke UTF-8-tegnsett, som er det DIFI anbefaler for informasjonsutveksling i offentlig virksomhet. Ingen andre SOSI-versjoner har denne muligheten.
+SOSI-VERSJON skal angi versjonen på standarden SOSI Del 1 Realisering i SOSI/GML som er benyttet. Det er her en finner alle forklaringer på hvordan hodet på ei SOSI-fil skal se ut. Gjeldende standard for «SOSI Del 1 Realisering i SOSI/GML» er 4.5. Og det betyr at en ved produksjon av SOSI-filer kan bruke UTF-8-tegnsett, som er det DIFI anbefaler for informasjonsutveksling i offentlig virksomhet. Ingen andre SOSI-versjoner har denne muligheten.
 
 I versjon 4.5 av standarden «SOSI Del 1 Realisering i SOSI/GML» er ..OBJEKTKATALOG opsjonelt. Men dersom programmet SOSI-kontroll skal brukes for fullstendig kontroll av SOSI- filer må denne være med i henhold til følgende struktur:
 
@@ -708,10 +714,11 @@ Påkrevd dersom GML er angitt som leveranseformat. Innholdet i vedlegget generer
 ==== Vedlegg C (gjerne flere) - Annen nyttig informasjon
 Flere vedlegg med det som produkteier mener er nyttig og nødvendig informasjon
 
-:sectnums:
+//:sectnums:
 
-[appendix]
-== Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt
+//[appendix]
+
+== Vedlegg 1 Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt
 
 |====
 |Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning:|8. Spesifikasjonsomfang
@@ -753,13 +760,14 @@ Oppdeling av produktet kan gjøres på ulike måter, basert på
 
 I de delene av produktspesifikasjonen der oppdelingen i delspesifikasjoner ikke er relevant, referer alle kravene til hele produktet, angitt som "hele datasettet".
 
-[appendix]
-== Kapittelinndeling til en produktspesifikasjon
+//[discrete]
+== Vedlegg 2 Kapittelinndeling til en produktspesifikasjon
+
 I dette vedlegget er kapitlene i produktspesifikasjonen angitt. (Kilde: SOSI produktspesifikasjoner – Krav og godkjenning)
 
 image::figurer/kapittelinndeling.png[kapittelindeling for produktspesifikasjon]
 
-:sectnums!:
+//:sectnums!:
 == Endringslogg
 [cols="20,30,50"]
 |====

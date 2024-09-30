@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="generator" content="Asciidoctor 2.0.23">
 <title>Veileder for utarbeidelse av SOSI produktspesifikasjoner</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -140,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -162,6 +162,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -327,7 +328,7 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
@@ -534,8 +535,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#_tillegg_til_hovedløypa_hvordan_beskrive_ikke_homogene_produkt">Vedlegg A: Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt</a></li>
-<li><a href="#_kapittelinndeling_til_en_produktspesifikasjon">Vedlegg B: Kapittelinndeling til en produktspesifikasjon</a></li>
+<li><a href="#_vedlegg_1_tillegg_til_hovedløypa_hvordan_beskrive_ikke_homogene_produkt">Vedlegg 1 Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt</a></li>
+<li><a href="#_vedlegg_2_kapittelinndeling_til_en_produktspesifikasjon">Vedlegg 2 Kapittelinndeling til en produktspesifikasjon</a></li>
 <li><a href="#_endringslogg">Endringslogg</a></li>
 </ul>
 </div>
@@ -753,7 +754,8 @@ SOSI Modellregister er åpent tilgjengelig for alle. Det inneholder UML-modellen
 <div class="sect2">
 <h3 id="_krav_om_utarbeidelse_av_produktspesifikasjoner">3.1. Krav om utarbeidelse av produktspesifikasjoner</h3>
 <div class="paragraph">
-<p>Alle data som etter partsavtaler i Norge digitalt skal leveres inn til Norge digitalt-samarbeidet, skal ha produktspesifikasjoner. (Kilde: Norge digitalt partsavtalen). For data som ikke inngår i Norge digitalt-samarbeidet, er det formelt ikke noe krav om produktspesifikasjoner, men likevel er produktspesifikasjoner nyttig å ha, også for slike data.</p>
+<p>Alle data som etter partsavtaler i Norge digitalt skal leveres inn til Norge digitalt-samarbeidet, skal ha produktspesifikasjoner. (Kilde: Norge digitalt partsavtalen).<br>
+For data som ikke inngår i Norge digitalt-samarbeidet, er det formelt ikke noe krav om produktspesifikasjoner, men likevel er produktspesifikasjoner nyttig å ha, også for slike data.</p>
 </div>
 </div>
 <div class="sect2">
@@ -840,13 +842,19 @@ SOSI Modellregister er åpent tilgjengelig for alle. Det inneholder UML-modellen
 <div class="sect3">
 <h4 id="_kap_1_2_historikk_påkrevd">Kap 1.2 Historikk (Påkrevd)</h4>
 <div class="paragraph">
-<p>Historikken til produktet skal fortelle når produktspesifikasjonen (og ev tidligere versjoner av produktspesifikasjonen) ble utarbeidet. Det kan også fortelle hvem som var involvert i arbeidet med produktspesifikasjonen. Dersom dette er første versjon skrives «Første versjon».</p>
+<p>Historikken til produktet skal fortelle når produktspesifikasjonen (og ev tidligere versjoner av produktspesifikasjonen) ble utarbeidet.<br>
+Det kan også fortelle hvem som var involvert i arbeidet med produktspesifikasjonen.<br>
+Dersom dette er første versjon skrives «Første versjon».</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_kap_1_3_endringslogg_betinget">Kap 1.3 Endringslogg (Betinget)</h4>
 <div class="paragraph">
-<p>Endringslogg er aktuelt for produktspesifikasjoner som er en ny versjon av tidligere utgitte produktspesifikasjoner. Endringene fra tidligere versjon angis som fritekst. Dersom det er aktuelt med detaljert dokumentasjon av for eksempel applikasjons-skjemaet tas dette ikke inn her, men tas inn som eget vedlegg til produktspesifikasjonen</p>
+<p>Endringslogg er aktuelt for produktspesifikasjoner som er en ny versjon av tidligere utgitte produktspesifikasjoner.<br>
+Endringene fra tidligere versjon angis som fritekst.</p>
+</div>
+<div class="paragraph">
+<p>Dersom det er aktuelt med detaljert dokumentasjon av for eksempel applikasjons-skjemaet tas dette ikke inn her, men tas inn som eget vedlegg til produktspesifikasjonen</p>
 </div>
 </div>
 </div>
@@ -932,9 +940,9 @@ en lengre navn.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Kapittel 3.1.3 Versjon</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Påkrevd</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Produkteieren bestemmer selv hvordan versjoner av produktet skal angis. Versjons-angivelsen på produktet er uavhengig av versjonsangivelse på de SOSI Del 2-fagområdene produktspesifikasjonene baseres på.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Metode 1 (SOSI Del 2-knytta): 4.01<br>
-Metode 2 (egen): 1.0<br>
-Metode 3 (dato): 20120416</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Metode 1 (SOSI Del 2-knytta): 4.01</p>
+<p class="tableblock">Metode 2 (egen): 1.0</p>
+<p class="tableblock">Metode 3 (dato): 20120416</p></td>
 </tr>
 </tbody>
 </table>
@@ -946,13 +954,9 @@ Metode 3 (dato): 20120416</p></td>
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Om produktspesifikasjons-versjoner og knytting til versjoner av refererte ”ressurser”</p>
-</div>
-<div class="paragraph">
-<p>Versjonsangivelser av produktspesifikasjoner er det den som lager produktspesifikasjonen som bestemmer selv. Prinsippene for versjonsangivelse er opp til den som lager produktspesifikasjoner å bestemme. Vi har ulike prinsipper i bruk. FKB bruker noe som er nær fagområdeversjonene, arealplan bruker datobasert versjon, og ”Tur og friluftsruter” noe som er frittstående både fra fagområdeversjon og fra dato.</p>
-</div>
-<div class="paragraph">
-<p>Versjonen av produktspesifikasjonen har ikke noe med versjon av fagområdestandardene produktet baseres på (se omtale av Kap 5 Informasjonsmodell) å gjøre. Den har heller ikke noe med versjonen av referansesystemene (se kap 6.1 Geografisk referansesystem)å gjøre, og har heller ikke noe med versjon av leveranseformatet (se Kap 11.1 Leveranseinformasjon) å gjøre. Disse (minst) 4 versjonene er i prinsippet helt uavhengige.</p>
+<p>Om produktspesifikasjons-versjoner og knytting til versjoner av refererte ”ressurser”<br>
+Versjonsangivelser av produktspesifikasjoner er det den som lager produktspesifikasjonen som bestemmer selv. Prinsippene for versjonsangivelse er opp til den som lager produktspesifikasjoner å bestemme. Vi har ulike prinsipper i bruk. FKB bruker noe som er nær fagområdeversjonene, arealplan bruker datobasert versjon, og ”Tur og friluftsruter” noe som er frittstående både fra fagområdeversjon og fra dato.<br>
+Versjonen av produktspesifikasjonen har ikke noe med versjon av fagområdestandardene produktet baseres på (se omtale av Kap 5 Informasjonsmodell) å gjøre. Den har heller ikke noe med versjonen av referansesystemene (se kap 6.1 Geografisk referansesystem)å gjøre, og har heller ikke noe med versjon av leveranseformatet (se Kap 11.1 Leveranseinformasjon) å gjøre. Disse (minst) 4 versjonene er i prinsippet helt uavhengige.</p>
 </div>
 </td>
 </tr>
@@ -1091,7 +1095,7 @@ Metode 3 (dato): 20120416</p></td>
 </ul>
 </div>
 <div class="paragraph">
-<p>I en SOSI produktspesifikasjon skal dette beskriver i henhold til følgende kapittelinndeling:</p>
+<p>I en SOSI produktspesifikasjon skal dette beskrives i henhold til følgende kapittelinndeling:</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1242,12 +1246,12 @@ Under tregrensa</p></td>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Horisontal utstrekning</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geografisk avgrensning i form av et polygon</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Angis som et sett koordinater som totalt dannet et lukket polygon. Koordinatene må angis i henhold til det referansesystem somspesifiseres Kapittel 6 Referansesystem.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Angis som et sett koordinater som totalt dannet et lukket polygon. Koordinatene må angis i henhold til det referansesystem som spesifiseres i Kapittel 6 Referansesystem.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geografisk avgrensning i form av vestlig lengdegrad, østlig lengdegrad, sørligste breddegrad og nordligste breddegrad.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Omskreven box:<br>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Omskreven boks:<br>
 Sørlig bredde: 57° 58' 46,2797"<br>
 Nordlig bredde: 71° 08' 02,4780"<br>
 Vestlig lengde: 04° 56' 43,1825"<br>
@@ -1376,7 +1380,7 @@ For utstrekningsbeskrivelse samt horisontal og vertikal utstrekning, se kap 3.11
 </tbody>
 </table>
 <div class="paragraph">
-<p>Innholdsomfang skal brukes til å fortelle hvilke deler av produktspesifikasjonen innholdsspesifikasjonen skal gjelde for. Referer her til et predefinert spesifikasjonsomgang jfr. kapittel 4 eller skriver "Hele datasettet"</p>
+<p>Innholdsomfang skal brukes til å fortelle hvilke deler av produktspesifikasjonen innholdsspesifikasjonen skal gjelde for. Referer her til et predefinert spesifikasjonsomgang jfr. kapittel 4 eller skriv "Hele datasettet"</p>
 </div>
 </div>
 <div class="sect3">
@@ -1607,7 +1611,7 @@ Annex A</p></td>
 <p>Eksempel: For kvalitets-element Stedfestingsnøyaktighet, kvalitets-del-element Absolutt grunnrissnøyaktighet” finnes kvalitets-målene ”Standardavvik”, og ”Prosentandel grove feil”. De to kvalitets-målene angir den absolutte stedfestingsnøyaktigheten på to ulike måter.</p>
 </div>
 <div class="paragraph">
-<p>Kvalitets-kravene i en produktspesifikasjon settes opp ved å velge et passende kvalitets-mål og beskrive grenseverdier (maks tillatt verdi).</p>
+<p>Kvalitets-kravene i en produktspesifikasjon settes opp ved å velge et passende kvalitetsmål og beskrive grenseverdier (maks tillatt verdi).</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -1798,7 +1802,7 @@ Bygninger - Ukentlig</p></td>
 <p>Leveranseinformasjon består av to deler: Leveranseformat og leveransemedium. Disse to er knytta sammen, hvert leveranseformat har sitt leveransemedium. I tillegg må også beskrivelsen inneholde informasjon om hvilke omfang leveransen knyttes til. I de aller fleste tilfeller finnes det bare et omfang.</p>
 </div>
 <div class="paragraph">
-<p>En viktig del av leveranseinformasjonen, er angivelse av leveranseformat. For hvert mulig leveranseformat kreves et eget vedlegg i produktspesifikasjonen som sier hvordan applikasjonsskjemaet (dokumentert i kap 5) skal realiseres i leveranseformatene. Mer om dette lenger nede, under Vedlegg til produktspesifikasjonen.</p>
+<p>En viktig del av leveranseinformasjonen, er angivelse av leveranseformat. For hvert mulig leveranseformat kreves et eget vedlegg i produktspesifikasjonen som sier hvordan applikasjonsskjemaet (dokumentert i kap 5) skal realiseres i leveranseformatene. Mer om dette lenger nede, under <em>Vedlegg til produktspesifikasjonen</em>.</p>
 </div>
 <div class="sect3">
 <h4 id="_kap_11_1_leveransemetode">Kap 11.1 Leveransemetode</h4>
@@ -1912,7 +1916,7 @@ Bygninger - Ukentlig</p></td>
 <p>Om SOSI-formatet og versjoner av SOSI-formatet.</p>
 </div>
 <div class="paragraph">
-<p>SOSI-VERSJON skal angi versjonen på standarden SOSI Del 1 Realisering i SOSI/GML som er benyttet. Det er her en finner alle forklaringer på hvordan hodet på ei SOSI-fil skal se ut. Gjeldendestandard for SOSI Del 1 Realisering i SOSI/GML er 4.5. Og det betyr at en ved produksjon av SOSIfiler kan bruke UTF-8-tegnsett, som er det DIFI anbefaler for informasjonsutveksling i offentlig virksomhet. Ingen andre SOSI-versjoner har denne muligheten.</p>
+<p>SOSI-VERSJON skal angi versjonen på standarden SOSI Del 1 Realisering i SOSI/GML som er benyttet. Det er her en finner alle forklaringer på hvordan hodet på ei SOSI-fil skal se ut. Gjeldende standard for «SOSI Del 1 Realisering i SOSI/GML» er 4.5. Og det betyr at en ved produksjon av SOSI-filer kan bruke UTF-8-tegnsett, som er det DIFI anbefaler for informasjonsutveksling i offentlig virksomhet. Ingen andre SOSI-versjoner har denne muligheten.</p>
 </div>
 <div class="paragraph">
 <p>I versjon 4.5 av standarden «SOSI Del 1 Realisering i SOSI/GML» er ..OBJEKTKATALOG opsjonelt. Men dersom programmet SOSI-kontroll skal brukes for fullstendig kontroll av SOSI- filer må denne være med i henhold til følgende struktur:</p>
@@ -2110,7 +2114,7 @@ leveranseformat:</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tillegg_til_hovedløypa_hvordan_beskrive_ikke_homogene_produkt">Vedlegg A: Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt</h2>
+<h2 id="_vedlegg_1_tillegg_til_hovedløypa_hvordan_beskrive_ikke_homogene_produkt">Vedlegg 1 Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2221,7 +2225,7 @@ NB! Ikke det samme som at det er to alternative leveransemåter for hele produkt
 </div>
 </div>
 <div class="sect1">
-<h2 id="_kapittelinndeling_til_en_produktspesifikasjon">Vedlegg B: Kapittelinndeling til en produktspesifikasjon</h2>
+<h2 id="_vedlegg_2_kapittelinndeling_til_en_produktspesifikasjon">Vedlegg 2 Kapittelinndeling til en produktspesifikasjon</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>I dette vedlegget er kapitlene i produktspesifikasjonen angitt. (Kilde: SOSI produktspesifikasjoner – Krav og godkjenning)</p>
@@ -2286,7 +2290,7 @@ Tore Johnsen</p></td>
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2024-09-23 15:31:26 +0200
+Sist oppdatert 2024-09-30 15:39:42 +0200
 </div>
 </div>
 <script type="text/x-mathjax-config">
