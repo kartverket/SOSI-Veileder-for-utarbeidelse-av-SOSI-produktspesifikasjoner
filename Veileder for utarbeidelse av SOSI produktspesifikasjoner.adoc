@@ -14,6 +14,26 @@ include::Språk-{lang}.adoc[]
 :eqnums:
 :icons: font
 
+:prodspekveileder: Veileder for utarbeidelse av SOSI produktspesifikasjoner
+:utplukkveileder: link:https://sosi.geonorge.no/veiledere/Veileder_i_%c3%a5_modellere_produktspesifikasjon_som_utplukk_fra_SOSI_fagomr%c3%a5der.pdf[Veileder i å modellere SOSI produktspesifikasjon som utplukk fra SOSI fagområder^]
+:installasjonsveileder: link:https://sosi.geonorge.no/veiledere/installasjonsveileder/index.html[Installasjon av programvare for arbeid med UML-modeller i SOSI-modellregister^]
+:eksempeldokument: link:https://www.geonorge.no/globalassets/geonorge2/standardisering/dokumenter/Eksempel-pa-SOSI-produktspesifikasjonsdokument-august-2024.pdf[Eksempel på SOSI produktspesifikasjon^]
+:prodspekmal: https://www.geonorge.no/globalassets/geonorge2/standardisering/maler/asciidocmaler.zip[Mal for SOSI-produktspesifikasjonsdokument]
+
+
+:prodspekstandard: link:https://register.geonorge.no/sosi-standarden/sosi-produktspesifikasjoner-krav-og-godkjenning[SOSI produktspesifikasjoner - Krav og godkjenning^]
+:prodspekstandardkort: link:https://register.geonorge.no/sosi-standarden/sosi-produktspesifikasjoner-krav-og-godkjenning[produktspesifikasjonsstandarden^]
+:umlstandard: link:https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering[Regler for UML-modellering^]
+:objektkatalog: link:https://register.geonorge.no/standarder/sosi/del-2-generell-objektkatalog[SOSI Del 2 - Generell objektkatalog^]
+:geodatakvalitet: link:https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet^]
+:rammeverk: link:https://register.geonorge.no/subregister/versjoner/nasjonalt-rammeverk-for-geografisk-informasjon/kartverket/rammeverksdokumentet/kartverket/teknologisk-rammeverk-for-den-geografiske-infrastrukturen[Teknologisk rammeverk for den geografiske infrastrukturen^]
+:rammeverkkort: link:https://register.geonorge.no/subregister/versjoner/nasjonalt-rammeverk-for-geografisk-informasjon/kartverket/rammeverksdokumentet/kartverket/teknologisk-rammeverk-for-den-geografiske-infrastrukturen[rammeverksdokumentet^]
+:veileder-forskrift: link:https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/id2628439/[Veileder til forskrift om kart, stedfestet informasjon, arealformål og digitalt planregister^]
+
+
+
+
+
 == Innledning
 
 === Hva er en produktspesifikasjon
@@ -51,26 +71,25 @@ Det finnes mange dokument som forteller om ulike sider av det å lage og bruke e
 ==== Veiledere for utarbeidelse av SOSI produktspesifikasjoner
 Det er utarbeidet et sett med veiledningsdokument. Disse dokumentene ligger tilgjengelig på https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/
 
-* *SOSI Produktspesifikasjoner_Veileder* (Dette dokumentet som du leser i nå) Det har til hensikt å beskrive hvordan en utarbeider en produktspesifikasjon, fra starten til den er ferdig.
-* *Veileder i å modellere SOSI produktspesifikasjon som utplukk fra SOSI fagområder.* Forklarer hvordan ”UML-delen” av utarbeidelsen av produktspesifikasjoner skal gjøres
-* *Installasjon av nødvendig programvare for arbeid med SOSI-produktspesifikasjoner.* Forklarer
-(som tittelen sier) hvordan en installerer de programmene og tilhørende tilleggene som er nødvendig. Forklarer også hvordan en hva som må gjøres for å få nødvendig tilgang til SOSI modellregister. UML modelleringsverktøyet som er uttestet og som benyttes i for å håndtere SOSI-modeller, heter Enterprise Architect, og leveres av Sparx system. Dette krever lisens for å kunne brukes. Denne lisensen må de som skal lage applikasjonsskjema til SOSI produktspesifikasjoner ha.
+* *{prodspekveileder}.* (Dette dokumentet som du leser i nå) Det har til hensikt å beskrive hvordan en utarbeider en produktspesifikasjon, fra starten til den er ferdig.
+* *{utplukkveileder}.* Forklarer hvordan ”UML-delen” av utarbeidelsen av produktspesifikasjoner skal gjøres
+* *{installasjonsveileder}.* Forklarer hvordan en installerer de programmene og tilhørende tilleggene som er nødvendig. Forklarer også hvordan en hva som må gjøres for å få nødvendig tilgang til SOSI modellregister. UML modelleringsverktøyet som er uttestet og som benyttes i for å håndtere SOSI-modeller, heter Enterprise Architect, og leveres av Sparx system. Dette krever lisens for å kunne brukes. Denne lisensen må de som skal lage applikasjonsskjema til SOSI produktspesifikasjoner ha.
 
 ==== SOSI standarder nødvendige utarbeidelse av produktspesifikasjoner
 Disse standardene ligger tilgjengelig på Kartverkets SOSI-sider, se https://www.geonorge.no/standardisering
 
-* *SOSI Produktspesifikasjoner – Krav og godkjenning.* Dette dokumentet tilpasser metodene og prinsippene i NS-EN ISO19131:2008 Geografisk informasjon - Produktspesifikasjoner til norske forhold. Den definerer bl.a. norske navn på en del av begrepene, og angir godkjennings- og forvaltningsrutiner for SOSI produktspesifikasjoner.
-* *SOSI Del 1 Retningslinjer for UML-modellering* (dagens versjon er 4.0, det arbeides med en revisjon versjon 5.0). Forklarer hvordan modelleringsspråket UML skal brukes for å modellere SOSI
+* *{prodspekstandard}.* Dette dokumentet tilpasser metodene og prinsippene i NS-EN ISO19131:2008 Geografisk informasjon - Produktspesifikasjoner til norske forhold. Den definerer bl.a. norske navn på en del av begrepene, og angir godkjennings- og forvaltningsrutiner for SOSI produktspesifikasjoner.
+* *{umlstandard}.* Forklarer hvordan modelleringsspråket UML skal brukes for å modellere SOSI
 objektkataloger.
-* *SOSI Del 2 Generell objektkatalog.* Inneholder modeller for ca. 50 ulike fagområde-standarder, og er det naturlige utgangspunktet for produktspesifikasjonens objektkatalog.
-* *Geodatakvalitet* Denne standarden er utarbeidet med bakgrunn i de tidligere standardene Geodatastandarden (2001) og Kontroll av geodata (2007). De to standardene er nå slått sammen og innholdet er begrenset til å omfatte kvalitet på geodata.
+* *{objektkatalog}.* Inneholder modeller for ca. 50 ulike fagområde-standarder, og er det naturlige utgangspunktet for produktspesifikasjonens objektkatalog.
+* *{geodatakvalitet}.* Denne standarden er utarbeidet med bakgrunn i de tidligere standardene Geodatastandarden (2001) og Kontroll av geodata (2007). De to standardene er nå slått sammen og innholdet er begrenset til å omfatte kvalitet på geodata.
 
 ==== Andre standarder som er relevante
 • *NS-EN ISO19131:2008 Geografisk informasjon Produktspesifikasjoner.* Denne har også et endringsblad NS-EN ISO 19131:2008/A1:2011. Standarden kan kjøpes fra Standard Norge, se http://www.standard.no
 
 ==== Andre dokumenter som omhandler produktspesifikasjoner
-* *Rammeverksdokumentet.* Dokumentet i nåværende versjon ”Rammeverk og infrastruktur for stedfestet informasjon i Norge”, tilgjengelig på http://www.norgedigitalt.no.
-* *Veiledning til forskrift om kart, stedfestet informasjon, arealformål og digitalt planregister.* Dokumentet gir krav og føringer til utarbeidelse av SOSI produktspesifikasjoner, tilgjengelig på http://www.regjeringen.no/nb/dep/kmd.html?id=504
+* *{rammeverk}.* 
+* *{veileder-forskrift}.* Dokumentet gir krav og føringer til utarbeidelse av SOSI produktspesifikasjoner.
 
 ==== Om bruken av dokumentene
 Dokumentene er lagt opp slik at dokumentet ”SOSI Produktspesifikasjoner_Veileder” er det naturlige startstedet når en planlegger å lage en produktspesifikasjon. Her vil en finne beskrivelse av de ulike trinnene i løypa fram mot ferdig produktspesifikasjon. Dokumentet har henvisninger videre til andre dokumenter som er nødvendige/nyttige i arbeidet med produktspesifikasjoner. Disse kan det være hensiktsmessig å slå opp når en trenger mer info om enkelte av trinnene.
@@ -78,7 +97,9 @@ Dokumentene er lagt opp slik at dokumentet ”SOSI Produktspesifikasjoner_Veiled
 ==== Tilgjengelige mal-filer
 Mal-filer brukes for å styre hvordan innholdet på filer skal presenteres. Det finnes flere slike mal-filer:
 
-* Eksempel på SOSI produktspesifikasjonsdokument. Dette er egentlig ikke en mal men et fiktivt eksempel på en SOSI produktspesifikasjon i form av et Microsoft Word dokument. Utgangspunktet er at de som skal lage en produktspesifikasjon tar utgangspunkt i dette dokumentet og erstatter eksisterende innhold med det som skal spesifiseres. link:https://www.geonorge.no/globalassets/geonorge2/standardisering/dokumenter/Eksempel-pa-SOSI-produktspesifikasjonsdokument-august-2024.pdf[Dokumentet ligger tilgjengelig her].
+* {prodspekmal}. Dette er en zip-fil som inneholder AsciiDoc-mal for produktspesifikasjonsdokumentet.
+
+* {eksempeldokument}. Dette er egentlig ikke en mal men et fiktivt eksempel på en SOSI produktspesifikasjon i form av et Microsoft Word dokument. Utgangspunktet er at de som skal lage en produktspesifikasjon tar utgangspunkt i dette dokumentet og erstatter eksisterende innhold med det som skal spesifiseres.
 
 Maler for å dokumentere UML-applikasjons-skjema som tekst
 
@@ -87,7 +108,7 @@ Maler for å dokumentere UML-applikasjons-skjema som tekst
 == Ordforklaringer
 
 .SOSI produktspesifikasjon
-En produktspesifikasjon som tilfredsstiller kravene angitt i ”SOSI produktspesifikasjon – Krav og godkjenning”
+En produktspesifikasjon som tilfredsstiller kravene angitt i ”{prodspekstandard}”
 
 .SOSI modellregister
 Forvaltnings-systemet for SOSI/UML-modeller. Modellregisteret inneholder alle UML-modellene som inngår i SOSI Del 1 Generell del, SOSI Del 2 Generell objektkatalog og SOSI Produktspesifikasjoner.
@@ -119,7 +140,7 @@ Kravene til SOSI produktspesifikasjoner finnes i standarden ”SOSI produktspesi
 image::figurer/løype.png["Løype for å lage en produktspesifikasjon"]
 
 == De enkelte kapitlene i et produktspesifikasjonsdokument
-Trinnene i produksjonsløypa er angitt på figur 1. Trinnene som er angitt, samsvarer i stor grad med kapitlene i et produktspesifikasjons-dokument. Her følger en litt mer utfyllende forklaring på hvert av trinnene/kapitlene. Hvert av punktene under, vil ha referanse til kapitler i standarden *SOSI Produktspesifikasjoner – Krav og godkjenning.*
+Trinnene i produksjonsløypa er angitt på figur 1. Trinnene som er angitt, samsvarer i stor grad med kapitlene i et produktspesifikasjons-dokument. Her følger en litt mer utfyllende forklaring på hvert av trinnene/kapitlene. Hvert av punktene under, vil ha referanse til kapitler i standarden *{prodspekstandard}.*
 
 Produksjonsløypa beskriver først og fremst hvordan en beskriver ”homogene produkt”, dvs. produkt der innhold og kvalitetskrav (og mulige andre deler) er de samme i hele produktet. Dersom produktspesifikasjonen skal spesifisere produkt som ikke er homogene, kan dette gjøres med å definere spesifikasjonsomfang for hvert kapittel. Hvordan dette kan gjøres, forklares etter at de ulike trinnene i ”hovedløypa” er forklart.
 
@@ -134,10 +155,10 @@ Resten av dette kapittelet beskriver de ulike kapitlene som inngår i en produkt
 === Kap 1 Innledning, historikk og endringslogg (Påkrevd)
 
 |====
-|Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning:|1. Innledning, historikk og endringslogg + 
-1.1 Innledning +
-1.2 Historikk +
-1.3 Endringslogg
+|Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning:|11. Innledning, historikk og endringslogg + 
+11.1 Innledning +
+11.2 Historikk +
+11.3 Endringslogg
 |====
 
 ==== Kap 1.1 Innledning (Påkrevd)
@@ -157,9 +178,9 @@ Dersom det er aktuelt med detaljert dokumentasjon av for eksempel applikasjons-s
 === Kap 2 Definisjoner og forkortelser
 
 |====
-|Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning: | 2. Definisjoner og forkortelser +
-2.1 Definisjoner +
-2.2 Forkortelser
+|Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning: | 12. Definisjoner og forkortelser +
+12.1 Definisjoner +
+12.2 Forkortelser
 |====
 
 Her angis definisjoner og forkortelser som er nødvendige for å forstå produktspesifikasjonen og hvordan datasett basert på produktspesifikasjonen skal brukes.
@@ -619,7 +640,19 @@ SOSI-VERSJON skal angi versjonen på standarden SOSI Del 1 Realisering i SOSI/GM
 
 I versjon 4.5 av standarden «SOSI Del 1 Realisering i SOSI/GML» er ..OBJEKTKATALOG opsjonelt. Men dersom programmet SOSI-kontroll skal brukes for fullstendig kontroll av SOSI- filer må denne være med i henhold til følgende struktur:
 
-image::figurer/sosi-struktur.png[SOSI-struktur med objektkatalog]
+[grid=none]
+|===
+m|.DEF |
+m|..OBJEKTKATALOG * | 
+m|pass:[...]KORTNAVN T50 | kortnavn
+m|pass:[...]VERSJON T50 | versjon
+m|pass:[...]UNDERTYPE T20 | undertypeVersjon
+m|pass:[...]OBJEKTKATALOG_GRUPPE T100 | objektkataloggruppe
+m|pass:[...]OBJEKTKATALOG_FULLT_NAVN T100 | objektkatalogFullstendigNavn
+m|pass:[...]OBJEKTKATALOG_LINK T255 | objektkataloglink 
+|===
+
+// image::figurer/sosi-struktur.png[SOSI-struktur med objektkatalog]
 
 Et eksempel på hodet i en SOSI fil
 
