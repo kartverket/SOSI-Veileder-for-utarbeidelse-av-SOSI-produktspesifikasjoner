@@ -747,11 +747,10 @@ Påkrevd dersom GML er angitt som leveranseformat. Innholdet i vedlegget generer
 ==== Vedlegg C (gjerne flere) - Annen nyttig informasjon
 Flere vedlegg med det som produkteier mener er nyttig og nødvendig informasjon
 
-//:sectnums:
+:sectnums:
 
-//[appendix]
-
-== Vedlegg 1 Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt
+[appendix]
+== Tillegg til hovedløypa: Hvordan beskrive ikke-homogene produkt
 
 |====
 |Kapittel i SOSI produktspesifikasjoner - Krav og godkjenning:|8. Spesifikasjonsomfang
@@ -793,14 +792,14 @@ Oppdeling av produktet kan gjøres på ulike måter, basert på
 
 I de delene av produktspesifikasjonen der oppdelingen i delspesifikasjoner ikke er relevant, referer alle kravene til hele produktet, angitt som "hele datasettet".
 
-//[discrete]
-== Vedlegg 2 Kapittelinndeling til en produktspesifikasjon
+[appendix]
+== Kapittelinndeling til en produktspesifikasjon
 
 I dette vedlegget er kapitlene i produktspesifikasjonen angitt. (Kilde: SOSI produktspesifikasjoner – Krav og godkjenning)
 
 image::figurer/kapittelinndeling.png[kapittelindeling for produktspesifikasjon]
 
-//:sectnums!:
+:sectnums!:
 == Endringslogg
 [cols="20,30,50"]
 |====
@@ -811,5 +810,5 @@ image::figurer/kapittelinndeling.png[kapittelindeling for produktspesifikasjon]
 |2015-februar|Morten Borrebæk|Oppdatert veileder i henhold til erfaring med SOSI produktspesifikasjoner og kommentarer knyttet til godkjenningsfunksjonen.
 |2024-juli|Marianne Berg Sæther +
 Tore Johnsen|Rettet feil og mangler. Registrert en del saker i meldingsregisteret som blir sett på ved neste revisjon av standarden, som denne veilederen er for.
-|2024-september|Åsmund Tjora|Overført dokument fra Word-format til AsciiDoc-format. Ingen rettinger.
+|2024-september|Åsmund Tjora|Overført dokument fra Word-format til AsciiDoc-format. Mindre rettinger.
 |====
