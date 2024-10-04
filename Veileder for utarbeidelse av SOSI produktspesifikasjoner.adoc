@@ -810,5 +810,5 @@ image::figurer/kapittelinndeling.png[kapittelindeling for produktspesifikasjon]
 |2015-februar|Morten Borrebæk|Oppdatert veileder i henhold til erfaring med SOSI produktspesifikasjoner og kommentarer knyttet til godkjenningsfunksjonen.
 |2024-juli|Marianne Berg Sæther +
 Tore Johnsen|Rettet feil og mangler. Registrert en del saker i meldingsregisteret som blir sett på ved neste revisjon av standarden, som denne veilederen er for.
-|2024-september|Åsmund Tjora|Overført dokument fra Word-format til AsciiDoc-format. Mindre rettinger.
+|2024-oktober|Åsmund Tjora|Overført dokument fra Word-format til AsciiDoc-format. Mindre rettinger.
 |====
