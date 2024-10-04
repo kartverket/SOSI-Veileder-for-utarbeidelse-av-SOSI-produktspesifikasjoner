@@ -136,7 +136,7 @@ Kravene til SOSI produktspesifikasjoner finnes i standarden ”SOSI produktspesi
 * Arkivering. Produkteier er ansvarlig for at produktspesifikasjonen og tilhørende dokumentasjon, arkiveres på en forsvarlig måte. Dette vil gjøre arbeidet med eventuelle oppdateringer lettere. For SOSI produktspesifikasjoner, vil applikasjons-skjemaene (UML-modellene representert som XMIfiler) være arkivert/forvaltet i SOSI Modellregister.
 
 .Trinnene i løypa for å lage en produktspesifikasjon (gule deler er frivillige)
-image::figurer/løype.png["Løype for å lage en produktspesifikasjon"]
+image::figurer/loype.png["Løype for å lage en produktspesifikasjon"]
 
 == De enkelte kapitlene i et produktspesifikasjonsdokument
 Trinnene i produksjonsløypa er angitt på figur 1. Trinnene som er angitt, samsvarer i stor grad med kapitlene i et produktspesifikasjons-dokument. Her følger en litt mer utfyllende forklaring på hvert av trinnene/kapitlene. Hvert av punktene under, vil ha referanse til kapitler i standarden *{prodspekstandard}.*
