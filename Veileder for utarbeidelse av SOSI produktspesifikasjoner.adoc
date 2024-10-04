@@ -15,11 +15,10 @@ include::Språk-{lang}.adoc[]
 :icons: font
 
 :prodspekveileder: Veileder for utarbeidelse av SOSI produktspesifikasjoner
-:utplukkveileder: link:https://sosi.geonorge.no/veiledere/Veileder_i_%c3%a5_modellere_produktspesifikasjon_som_utplukk_fra_SOSI_fagomr%c3%a5der.pdf[Veileder i å modellere SOSI produktspesifikasjon som utplukk fra SOSI fagområder^]
+:utplukkveileder: link:https://register.geonorge.no/nasjonale-standarder-og-veiledere/veiledere/veileder-i-%C3%A5-modellere-en-produktspesifikasjon-som-utplukk-fra-sosi-fagomr%C3%A5der[Veileder i å modellere SOSI produktspesifikasjon som utplukk fra SOSI fagområder^]
 :installasjonsveileder: link:https://sosi.geonorge.no/veiledere/installasjonsveileder/index.html[Installasjon av programvare for arbeid med UML-modeller i SOSI-modellregister^]
-:eksempeldokument: link:https://www.geonorge.no/globalassets/geonorge2/standardisering/dokumenter/Eksempel-pa-SOSI-produktspesifikasjonsdokument-august-2024.pdf[Eksempel på SOSI produktspesifikasjon^]
+:eksempeldokument: link:https://register.geonorge.no/nasjonale-standarder-og-veiledere/veiledere/eksempel-p%C3%A5-sosi-produktspesifikasjon[Eksempel på SOSI produktspesifikasjon^]
 :prodspekmal: https://www.geonorge.no/globalassets/geonorge2/standardisering/maler/asciidocmaler.zip[Mal for SOSI-produktspesifikasjonsdokument]
-
 
 :prodspekstandard: link:https://register.geonorge.no/sosi-standarden/sosi-produktspesifikasjoner-krav-og-godkjenning[SOSI produktspesifikasjoner - Krav og godkjenning^]
 :prodspekstandardkort: link:https://register.geonorge.no/sosi-standarden/sosi-produktspesifikasjoner-krav-og-godkjenning[produktspesifikasjonsstandarden^]
